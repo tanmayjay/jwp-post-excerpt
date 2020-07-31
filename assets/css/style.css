@@ -1,0 +1,42 @@
+.jwp-pe-post-box {
+    color: rgba(99, 94, 94, 0.973);
+    text-align: justify;
+    width: 100%;
+    height: 100%;
+    margin: 0px 0px 0px 100px;
+}
+    
+.jwp-pe-post-box > span {
+    color: tomato;
+    height: 100%;
+    float: right;
+}
+
+.jwp-pe-box {
+    display: flex;
+    align-items: baseline;
+    align-content: center;
+    text-align: center;
+}
+
+.jwp-pe-a {
+    color: rgb(22, 82, 105);
+    text-decoration: none;
+}
+
+.jwp-pe-a:hover {
+    color: rgb(175, 26, 26);
+    text-decoration: underline;
+}
+
+button#jwp-pe-submit {
+    color: rgb(196, 47, 47);
+    background-color: rgb(230, 230, 230);
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+button#jwp-pe-submit:hover {
+    color: rgb(56, 46, 46);
+    font-weight: bold;
+}

@@ -1,0 +1,20 @@
+{
+    "name": "jay/post-excerpt",
+    "description": "A plugin to show post excerpt using a customizable shortcode.",
+    "type": "wordpress-plugin",
+    "license": "GPL v3",
+    "authors": [
+        {
+            "name": "Tanmay Kirtania",
+            "email": "jktanmay@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "JWP\\JPE\\": "includes/"
+        },
+        "files": [ "includes/functions.php" ]
+    }
+}
